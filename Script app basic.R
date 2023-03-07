@@ -6,6 +6,11 @@
 #    http://shiny.rstudio.com/
 #
 library(rio)
+peru21 = import("~/Downloads/PER_2021_LAPOP_AmericasBarometer_v1.2_w.dta")
+
+#rio - import crea un dataframe. Todas las variables son num
+# file/import dataset / From Stata crea un tibble. Las variables son dbl+lbl
+
 library(shiny)
 library(haven)
 #Read data
